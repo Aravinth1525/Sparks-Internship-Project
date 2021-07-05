@@ -20,12 +20,7 @@ Database is available only for Local Server, temporarily unavailable for Public 
 
 ### ➤ Hosting Platform - [Heroku](https://www.heroku.com/)
  
-### **➤ To run this project in your localserver, follow the below steps**
-
-1. Download the rar/zip file and extract it.
-2. Add the extracted "BankingSystem" folder to your workspace.
-3. Now open your terminal.
-4. To run - python manage.py runserver.
+### ➤ Run Command - python manage.py runserver.
 
 
 ### ➤ Output
