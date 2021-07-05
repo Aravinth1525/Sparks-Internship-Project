@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<style >
+.container{
+    background-color: #FF4136;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+
+  
+</style>
+
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container" style="
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    transform: translate(-50%, -50%);">
+
+    <div class="box" style="
+        width: 470px;
+
+        height: 400px;
+        position: absolute;
+        left: 80%;
+        top: 10%;
+        bottom: 15%;
+        right: 12%;">
+
+          <div class="text-center">
+              <h3 style="font-size: 60px; padding: 5px; font-weight:bolder;"><strong style="color:red">Sparks Bank 💰 Welcomes You !</strong></h3>
+              
+          </div>
+          <div class="box text-center" style="
+              width: 470px;
+              height: 180px;
+              position:absolute;
+              bottom: 10%;
+              ">
+              <a type="button" class="btn btn-info" href="{% url 'customer_details' %}"><strong>Transfer</strong></a>
+            </div>
+            <div style="
+              width:475px;
+              height: 120px;
+              position:absolute;
+              bottom: 10%;
+              ">
+              <h3 class="text-center" style="color:red;font-weight:bold;">Click Here To Transfer Money !</h3>
+            
+            
+              
+
+          </div>
+      </div>
+      
+</div>
+
+
+
+{% endblock body %}

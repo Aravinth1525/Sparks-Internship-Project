@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Customer Details{% endblock title %}
+
+{% block body %}
+<h2 style="margin-top: 0%; margin-left: 40.5%;"><strong style="color:red;font-weight:900">Customer Details</strong></h2>
+
+<form action="/view" method="POST" >
+<table class="table table-sm text-center" style="
+        border: solid rgb(0, 60, 128) 5px;
+        margin-top: 0%;
+        margin-left: 28%;
+        width: 645px;
+        height: auto;
+        ">
+    <thead class="table-info">
+    <tr>
+      <th scope="col">Account No</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email - Id</th>
+      <th scope="col">Balance Amount</th>
+      <th scope="col">SELECT</th>
+    </tr>
+  </thead>
+  {% for details in cust_details %}
+  <tbody>
+    <tr>
+      <td style="background-color:#F9EBEA">{{details.account_no}}</td>
+      <td style="background-color:#F9EBEA">{{details.name}}</td>
+      <td style="background-color:#F9EBEA">{{details.email}}</td>
+      <td style="background-color:#F9EBEA">₹ {{details.amount}}</td>
+      <td style="background-color:#F9EBEA"><button type="submit" name="submit" class="btn btn-sm btn-success" value="{{details.name}}">View and Proceed</button></td>
+      {% csrf_token %}
+    </tr>
+  </tbody>
+  {% endfor %}
+</table>
+</form>
+{% endblock body %}
