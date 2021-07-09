@@ -11,8 +11,6 @@
 ### ➤ Frameworks Used 
 
 1. DJANGO
-
-### ➤ Hosting Platform - [Heroku](https://www.heroku.com/)
  
 ### ➤ Run Command - python manage.py runserver.
 
