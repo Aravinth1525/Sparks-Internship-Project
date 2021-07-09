@@ -1,11 +1,5 @@
 # Banking-System
 
-### **➤ Website link** - [aravinthbank.herokuapp.com](https://aravinthbank.herokuapp.com/)
-
-### ⚠️ Bug**
-
-Database is available only for Local Server, temporarily unavailable for Public Server. This issue will be resolved shortly.
-
 ### **➤ Database** - [SQLite](https://www.sqlite.org/index.html)
 
 ### ➤ Languages Used
