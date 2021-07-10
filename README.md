@@ -1,5 +1,7 @@
 # Banking-System
 
+### **➤ Website link** - [aravinthbank.herokuapp.com](https://aravinthbank.herokuapp.com/)
+
 ### **➤ Database** - [SQLite](https://www.sqlite.org/index.html)
 
 ### ➤ Languages Used
@@ -11,6 +13,8 @@
 ### ➤ Frameworks Used 
 
 1. DJANGO
+
+### ➤ Hosting Platform - [Heroku](https://www.heroku.com/)
  
 ### ➤ Run Command - python manage.py runserver.
 
